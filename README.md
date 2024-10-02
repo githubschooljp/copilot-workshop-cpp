@@ -56,7 +56,7 @@ buildするごとにテストを自動実行することも可能です。
 - [ ] `C++ TestMate` 拡張機能がインストールされていること
 - [ ] 拡張機能を左のメニューから選択、自動で実行したいテスト項目を画像のとおり目のマークの部分をクリック
 ![alt text](docs/images/1.png)
-- [ ] <key>cmd or ctl</key>+<key>shift</key>+<key>b</key> で `clean&build` を行うたびにテストが実行されることを確認
+- [ ] <key>cmd or ctl</key>+<key>shift</key>+<key>b</key> で `build` または `clean&build` を行うたびにテストが実行されることを確認
 ![alt text](docs/images/2.png)
 
 ## ハンズオン
