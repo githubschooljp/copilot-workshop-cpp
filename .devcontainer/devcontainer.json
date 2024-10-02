@@ -13,7 +13,8 @@
         "ms-vscode.cpptools",
         "ms-vscode.cpptools-extension-pack",
         "GitHub.copilot",
-        "GitHub.copilot-chat"
+        "GitHub.copilot-chat",
+        "matepek.vscode-catch2-test-adapter"
       ],
       "settings": {
         "cmake.sourceDirectory": "${workspaceRoot}",

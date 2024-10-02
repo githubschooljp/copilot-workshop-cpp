@@ -1,21 +1,22 @@
-# Copilot C++ Demo
+# GitHub Copilot C++ Training
 
-This is a simple C++ project to demonstrate the usage of the [GitHub Copilot](https://github.com/features/copilot).
+## 事前準備
+下記ツールが必要となります。
 
-It is a CLI Tool that allows users to convert in between Units of different
+- [ ] `cmake` がインストールされていること
+- [ ] `make` がインストールされていること
+- [ ] `gcc` がインストールされていること
+- [ ] `vscode` がインストールされていること
 
-## Todos
+また、DevContainerを利用する場合は、下記の拡張機能がインストールされていれば、`cmake`や`make`などのツールは不要です。
 
-- [ ] Finish the `Distance` Conversion Class and include it in the `main.cpp` (optionally, first implement tests and do a TDD appraoch)
-- [ ] Add some Tests for the `Distance::convertDistance`
-- [ ] Refactor all `printf` and `scanf` and use `std::cout` and `std::cin` instead
-- [ ] Add a new Conversion Class for `Weight` to convert in between Kilos and Pounds
+- [ ] `ms-vscode-remote.remote-containers`
 
 ## Getting Started
 
-### Build
+以下コマンドが実行出来るか確認してください。DevContainerを利用する場合は、DevContainerを開いてから実行してください。
 
-Run the following two commands to prepare the make file and then build the project:
+### Build
 
 ```bash
 cmake -S . -B build
@@ -24,21 +25,21 @@ cmake --build build
 
 ### Run & Test
 
-- To run the main program:
+- 実行するには、以下のコマンドを実行してください。摂氏と華氏の変換ができるCLIツールが起動します。
 
     ```bash
       ./build/main
     ```
 
-- To execute the tests:
+- テストをするには、以下のコマンドを実行してください。
 
     ```bash
-      /build/run-tests
+      ./build/run-tests
     ```
 
 ### Run as VSCode Tasks
 
-The above commands are also all defined as tasks in the `.vscode/tasks.json` file. You can run them from the VSCode Task Runner hitting <key>cmd</key>+<key>shift</key>+<key>p</key>:
+これらのコマンドは `.vscode/tasks.json` で定義されています。 VSCode Task Runner で実行することも可能です。実行するには次のキーを入力してください。 <key>cmd</key>+<key>shift</key>+<key>p</key>:
 
 | Task                | Description                                                                                                       |
 | ------------------- | ----------------------------------------------------------------------------------------------------------------- |
@@ -47,3 +48,20 @@ The above commands are also all defined as tasks in the `.vscode/tasks.json` fil
 | `clean:build`       | Same as `Build`, but Removes the directory before executing the Build step                                        |
 | `Start Application` | Runs the `./build/main` command                                                                                   |
 | `Run Tests`         | Runs the `./build/run-tests` command                                                                              |
+
+## より高度な実行方法(オプション)
+
+buildするごとにテストを自動実行することも可能です。
+
+- [ ] `C++ TestMate` 拡張機能がインストールされていること
+- [ ] 拡張機能を左のメニューから選択、自動で実行したいテスト項目を画像のとおり目のマークの部分をクリック
+![alt text](docs/images/1.png)
+- [ ] <key>cmd or ctl</key>+<key>shift</key>+<key>b</key> で `clean&build` を行うたびにテストが実行されることを確認
+![alt text](docs/images/2.png)
+
+## ハンズオン
+
+- [ ] `Distance`変換クラスを完成させ、`main.cpp`に含める（オプションとして、最初にテストを実装し、TDDアプローチを取る）
+- [ ] `Distance::convertDistance`のテストを追加する
+- [ ] すべての`printf`と`scanf`をリファクタリングし、`std::cout`と`std::cin`を使用する
+- [ ] キロとポンドの間で変換するための新しい`Weight`変換クラスを追加する
