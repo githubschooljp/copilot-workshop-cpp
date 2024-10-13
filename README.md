@@ -1,4 +1,8 @@
-# GitHub Copilot C++ Training
+# GitHub Copilot C++ Workshop
+
+ [:jp: Japanese](README.md) | [:us: English](README.md)
+
+こちらは、[GitHub Copilot](https://github.com/features/copilot) の使用方法を紹介するハンズオンワークショップです。異なる単位の間で変換を行うCLIツールを提供します。
 
 ## 事前準備
 下記ツールが必要となります。
