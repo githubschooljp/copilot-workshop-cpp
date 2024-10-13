@@ -1,4 +1,8 @@
-# GitHub Copilot C++ Training
+# GitHub Copilot C++ Workshop
+
+ [:jp: Japanese](README.md) | [:us: English](README.md)
+
+こちらは、[GitHub Copilot](https://github.com/features/copilot) の使用方法を紹介するハンズオンワークショップです。異なる単位の間で変換を行うCLIツールを提供します。
 
 ## 事前準備
 下記ツールが必要となります。
@@ -65,3 +69,5 @@ buildするごとにテストを自動実行することも可能です。
 - [ ] `Distance::convertDistance`のテストを追加する
 - [ ] すべての`printf`と`scanf`をリファクタリングし、`std::cout`と`std::cin`を使用する
 - [ ] キロとポンドの間で変換するための新しい`Weight`変換クラスを追加する
+- [ ] コードの問題点を発見し、Copilotの助けを借りて問題を解決する
+- [ ] あなたのアイデアで新しい機能を追加し、Copilotの助けを借りて実装する
