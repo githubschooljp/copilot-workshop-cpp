@@ -3,6 +3,7 @@
 ## Prerequisites
 
 ### GitHub Copilot
+- GitHub Account
 - GitHub Copilot License
 - [VSCode](https://code.visualstudio.com/download) 
 
