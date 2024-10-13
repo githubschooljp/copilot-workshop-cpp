@@ -1,6 +1,6 @@
 # GitHub Copilot C++ Workshop
 
- [:jp: Japanese](README.md) | [:us: English](README.md)
+ [:jp: Japanese](README.md) | [:us: English](README.en.md)
 
 This is a hands-on workshop to demonstrate the usage of the [GitHub Copilot](https://github.com/features/copilot). 
 <br>It is a CLI tool that allows users to convert between units of different types.
