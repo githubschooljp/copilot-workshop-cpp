@@ -1,6 +1,6 @@
 # GitHub Copilot C++ Workshop
 
- [:jp: Japanese](README.md) | [:us: English](README.md)
+ [:jp: Japanese](README.md) | [:us: English](README.en.md)
 
 こちらは、[GitHub Copilot](https://github.com/features/copilot) の使用方法を紹介するハンズオンワークショップです。異なる単位の間で変換を行うCLIツールを提供します。
 
