@@ -32,10 +32,6 @@ cmake -S . -B build
 cmake --build build
 ```
 
-## Shortcut Information
-- [VS Code](https://docs.github.com/en/enterprise-cloud@latest/copilot/managing-copilot/configure-personal-settings/configuring-github-copilot-in-your-environment?tool=vscode)
-- [JetBrains IDE](https://docs.github.com/en/enterprise-cloud@latest/copilot/managing-copilot/configure-personal-settings/configuring-github-copilot-in-your-environment?tool=visualstudio)
-
 ## Trust Center
 - [GitHub Trust Center](https://github.com/trust-center)
 - [GitHub Copilot Trust Center](https://copilot.github.trust.page/)
