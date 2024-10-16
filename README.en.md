@@ -19,7 +19,7 @@ cmake --build build
     ```
 - To execute the tests:
     ```bash
-      /build/run-tests
+      ./build/run-tests
     ```
 ### Run as VSCode Tasks
 The above commands are also all defined as tasks in the `.vscode/tasks.json` file. You can run them from the VSCode Task Runner from Command Palette (<key>cmd</key>+<key>shift</key>+<key>p</key> or <key>ctrl</key>+<key>shift</key>+<key>p</key>) and typing `Run Task`.:
